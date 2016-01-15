@@ -16,7 +16,7 @@ function merge(left, right){
 			merged.push(left[0]);
 			var lshift = left.slice(1);
 			if (lshift.length > 0) {
-                addEl(lshift,right,0,0);
+                addEl(lshift,right);
             } else {
                 merged = merged.concat(right);
             }
@@ -24,7 +24,7 @@ function merge(left, right){
 			merged.push(right[0]);
             var rshift = right.slice(1);
             if (rshift.length > 0) {
-                addEl(left,rshift,0,0);
+                addEl(left,rshift);
             } else {
                merged = merged.concat(left);
             }

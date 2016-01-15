@@ -1,6 +1,6 @@
 describe('Bubble Sort', function(){
     it('handles an empty array', function(){
-        expect( bubbleSort([]) ).toEqual( [] );
+        expect(bubbleSort([]) ).toEqual( [] );
     });
 
     it('handles an array one number', function(){
